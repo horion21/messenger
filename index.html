@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>messenger clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-right">
+                <button id="open">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <h1>Chats</h1>
+            </div>
+
+            <div class="header-left">
+                <button>
+                    <i class="fa-solid fa-camera"></i>
+                </button>
+                <button>
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+            </div>
+        </header>
+
+        <form class="form">
+            <div class="form-input">
+                <input type="text" name="search" id="search" placeholder="Search" />
+            </div>
+        </form>
+
+        <div class="left-side-content">
+            <div class="sidebar" id="sidebar">
+                <button class="sidebar-close" id="close">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+                
+                <div class="profile-header">
+                    <div class="profile-content">
+                        <img src="images/openai.jpg" alt="">
+                        <h3>Marvin Saik</h3>
+                    </div>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+
+                <div class="sidebar-container">
+                    <div class="sidebar-content active">
+                        <div class="chats-content">
+                            <i class="fa-solid fa-message"></i>
+                            <p>Chats</p>
+                        </div>
+
+                        <span>4</span>
+                    </div>
+
+                    <div class="sidebar-content">
+                        <div class="chats-content">
+                            <i class="fa-solid fa-store"></i>
+                            <p>Marketplace</p>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-content">
+                        <div class="chats-content">
+                            <i class="fa-solid fa-comments"></i>
+                            <p>Message requests</p>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-content">
+                        <div class="chats-content">
+                            <i class="fa-solid fa-trash"></i>
+                            <p>Archive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="main-container">
+            <div class="stories-container">
+                <div class="story">
+                  <img src="images/afternoon.jpg" alt="User 1">
+                  <div class="user-name">Kape us</div>
+                </div>
+            
+                <div class="story">
+                  <img src="images/ai-gf.png" alt="User 2">
+                  <div class="user-name">Cute ko</div>
+                </div>
+            
+                <div class="story">
+                  <img src="images/angry.gif" alt="User 3">
+                  <div class="user-name">Galit ako</div>
+                </div>
+            
+                <div class="story">
+                  <img src="images/cute.gif" alt="User 4">
+                  <div class="user-name">Miss ko</div>
+                </div>
+            
+                <div class="story">
+                  <img src="images/evening.jpg" alt="User 5">
+                  <div class="user-name">Gabi ako</div>
+                </div>
+            
+                <div class="story">
+                  <img src="images/shoto.webp" alt="User 6">
+                  <div class="user-name">Shouto</div>
+                </div>
+            </div>
+    
+    
+            <div class="main-body-container">
+                <div class="msger-container active">
+                    <img src="images/openai.jpg" alt="">
+                    <div class="chat-description">
+                        <p>Kabe Bot</p>
+                        <span>helloWorld("print")</span>
+                    </div>
+                </div>
+    
+                <div class="msger-container active">
+                    <img src="images/afternoon.jpg" alt="">
+                    <div class="chat-description">
+                        <p>Coffee Time</p>
+                        <span>Good Afternoon po</span>
+                    </div>
+                </div>
+    
+                <div class="msger-container">
+                    <img src="images/ai-gf.png" alt="">
+                    <div class="chat-description">
+                        <p>Cute Ako</p>
+                        <span>Kamusta ka?</span>
+                    </div>
+                </div>
+    
+                <div class="msger-container active">
+                    <img src="images/angry.gif" alt="">
+                    <div class="chat-description">
+                        <p>Angry Ako</p>
+                        <span>Inis ako sayo</span>
+                    </div>
+                </div>
+    
+                <div class="msger-container">
+                    <img src="images/anime-bg.jpg" alt="">
+                    <div class="chat-description">
+                        <p>Anime</p>
+                        <span>Ang Ganda nun po.</span>
+                    </div>
+                </div>
+    
+                <div class="msger-container">
+                    <img src="images/anime-bg.jpg" alt="">
+                    <div class="chat-description">
+                        <p>Anime</p>
+                        <span>Ang Ganda nun po.</span>
+                    </div>
+                </div>
+    
+                <div class="msger-container">
+                    <img src="images/anime-bg.jpg" alt="">
+                    <div class="chat-description">
+                        <p>Anime</p>
+                        <span>Ang Ganda nun po.</span>
+                    </div>
+                </div>
+    
+                <div class="msger-container">
+                    <img src="images/anime-bg.jpg" alt="">
+                    <div class="chat-description">
+                        <p>Anime</p>
+                        <span>Ang Ganda nun po.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="bottom-navbar">
+            <nav class="navbar">
+                <a href="index.html" class="active">
+                    <i class="fa-solid fa-message"></i>
+                    <span>Chats</span>
+                </a>
+    
+                <a href="calls.html">
+                    <i class="fa-solid fa-video"></i>
+                    <span>Calls</span>
+                </a>
+    
+                <a href="peoples.html">
+                    <i class="fa-solid fa-users"></i>
+                    <span>People</span>
+                </a>
+    
+                <a href="stories.html">
+                    <i class="fa-solid fa-sd-card"></i>
+                    <span>Stories</span>
+                </a>
+            </nav>
+        </div>
+
+    </div>
+    
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
